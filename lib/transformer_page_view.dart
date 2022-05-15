@@ -522,7 +522,7 @@ class _TransformerPageViewState extends State<TransformerPageView> {
       }
     }
     if (_transformer != null)
-      WidgetsBinding.instance!.addPostFrameCallback(_onGetSize);
+      WidgetsBinding.instance.addPostFrameCallback(_onGetSize);
 
     if (_controller != getNotifier()) {
       if (_controller != null) {
@@ -539,7 +539,7 @@ class _TransformerPageViewState extends State<TransformerPageView> {
   @override
   void didChangeDependencies() {
     if (_transformer != null)
-      WidgetsBinding.instance!.addPostFrameCallback(_onGetSize);
+      WidgetsBinding.instance.addPostFrameCallback(_onGetSize);
     super.didChangeDependencies();
   }
 
